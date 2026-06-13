@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VarMap project="DNS-Sentinel" updated="2026-06-10">
+  <Var name="GEMINI_API_KEY" value="process.env.GEMINI_API_KEY" usedIn="server/aiRoutes.ts" purpose="Server-only Gemini API key"/>
+  <Var name="GEMINI_MODEL" value="gemini-3.1-pro-preview" usedIn="server/aiRoutes.ts" purpose="AI assistant model"/>
+  <Var name="DB_PATH" value="dns_sentinel.db" usedIn="server/db.ts" purpose="SQLite audit history"/>
+  <Var name="DEV_PORT" value="3000" usedIn="server/index.ts" purpose="Express listen port"/>
+  <Var name="GITHUB_REPO" value="https://github.com/GatoGodMode/DNS-Sentinel" usedIn="README.md" purpose="Public repository URL"/>
+</VarMap>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SysMap project="DNS-Sentinel" updated="2026-06-10">
+  <Structure>
+    <File path="server/index.ts" role="Express entry, Vite middleware, route registration"/>
+    <File path="server/db.ts" role="SQLite dns_sentinel.db audit persistence"/>
+    <File path="server/dnsAudit.ts" role="POST /api/analyze orchestration and score"/>
+    <File path="server/emailAudit.ts" role="Email provider heuristics and SMTP/MX/audit endpoints"/>
+    <File path="server/frameworkDetect.ts" role="SSL, headers, WP/Vite detect, exposure and deepViteScan"/>
+    <File path="server/aiRoutes.ts" role="Server-side Gemini fix-guide and chat routes"/>
+    <File path="src/App.tsx" role="Domain audit and email diagnostics UI"/>
+    <File path="src/lib/api.ts" role="Client fetch wrappers"/>
+    <Folder path="EnVars" role="Structural and variable maps only"/>
+  </Structure>
+  <Constraints>
+    <Rule>GEMINI_API_KEY must remain server-only; never inject into Vite client bundle.</Rule>
+    <Rule>Diagnostic tool only — does not modify DNS records or migrate email automatically.</Rule>
+  </Constraints>
+</SysMap>

@@ -1,0 +1,12 @@
+node_modules/
+dist/
+build/
+coverage/
+dns_sentinel.db
+.venv/
+__pycache__/
+.DS_Store
+Thumbs.db
+*.log
+.env*
+!.env.example
