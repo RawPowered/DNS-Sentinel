@@ -7,7 +7,7 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
   [![React 19](https://img.shields.io/badge/React-19-087EA4?logo=react&logoColor=white)](https://react.dev/)
   [![Gemini](https://img.shields.io/badge/Gemini-3.1%20Pro-4285F4?logo=google&logoColor=white)](https://ai.google.dev/)
-  [![Author](https://img.shields.io/badge/GitHub-GatoGodMode-181717?logo=github)](https://github.com/GatoGodMode)
+  [![Author](https://img.shields.io/badge/GitHub-RawPowered-181717?logo=github)](https://github.com/RawPowered)
 
 </div>
 
@@ -19,7 +19,7 @@ During a **~1 TB GoDaddy Microsoft 365 → Google Workspace** migration (mail, c
 
 DNS-Sentinel was built to **confirm transfer and connectivity issues** in one place: MX/SPF/DMARC state, SMTP reachability, SSL and security headers, WordPress vs **Vite dist** deployment exposure, plus a **server-side Gemini assistant** for remediation guidance.
 
-**Created by:** [Joseph Edwards (@GatoGodMode)](https://github.com/GatoGodMode) · MIT licensed
+**Created by:** [Joseph Edwards (@RawPowered)](https://github.com/RawPowered) · MIT licensed
 
 ---
 
@@ -42,7 +42,7 @@ DNS-Sentinel was built to **confirm transfer and connectivity issues** in one pl
 **Requirements:** Node.js 18+ · `GEMINI_API_KEY` (optional — audits work without AI)
 
 ```powershell
-git clone https://github.com/GatoGodMode/DNS-Sentinel.git
+git clone https://github.com/RawPowered/DNS-Sentinel.git
 cd DNS-Sentinel
 copy .env.example .env.local
 # Set GEMINI_API_KEY in .env.local for AI features
